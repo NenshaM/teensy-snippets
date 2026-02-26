@@ -70,7 +70,7 @@ public:
      * @param input  Input buffer
      * @param inputLength Length of input buffer
      */
-    static void encode(char* output, char* input, size_t inputLength);
+    static void encode(char* output, const char* input, size_t inputLength);
 };
 
 #endif

@@ -45,7 +45,7 @@ size_t Base64::encodedLength(size_t inputLength)
     return ((inputLength + 2) / 3) * 4;
 }
 
-void Base64::encode(char* output, char* input, size_t inputLength)
+void Base64::encode(char* output, const char* input, size_t inputLength)
 {
     size_t i = 0;
     size_t j = 0;
